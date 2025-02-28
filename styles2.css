@@ -1,0 +1,94 @@
+body { 
+    font-family: sans-serif;
+    background-color: #A7F6A7;
+    color: black;
+    margin: 0;
+}
+
+header {
+    background-color: #4cb153;
+    padding: 15px;
+}
+
+nav a {
+    color: black;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icons {
+   height: 80px;  
+   width: 80px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons2 {
+    width: 440px;
+    height: auto;
+}
+
+.product-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px; /* Відстань між фото і списком */
+    margin: 20px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo3 {
+    max-width: 600px;
+}
+
+.small {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.smol {
+    width: 115px;
+    height: auto;
+}
+
+.opis {
+    max-width: 400px;
+}
+
+.spisok {
+    margin-top: 200px;
+    font-size: 20px;
+    background-color: #D9D9D9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #4cb153;
+    padding: 15px;
+    text-align: center;
+}
+
+.txt{
+    font-size: 25px;
+    font-family: initial;
+}
